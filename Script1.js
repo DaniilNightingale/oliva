@@ -12,7 +12,7 @@ function simbl(str) {
         default: return 0;
     }
 }
-
+var cicle = 0;
 function slovo(str, alb) {
     let ch;
     let stop;
@@ -25,7 +25,7 @@ function slovo(str, alb) {
                 arr = arr + ch;
         }
     }
-    var cicle = simbl(str[i]);
+    cicle = simbl(str[i]);
     return arr;
 }
 while (cicle != 4) {
